@@ -1,0 +1,80 @@
+/* TEST */
+section {
+    /* height: 400px; */
+    text-align: center;
+
+}
+
+footer {
+    background-color: grey;
+    text-align: center;
+}
+
+.sub-footer {
+    background: darkgrey;
+    height: 50px;
+}
+
+.wrapper {
+    max-width: 900px;
+    width: 90%;
+    margin: auto;
+}
+
+form {
+    text-align: left;
+    height: 150px;
+    background-color: crimson;
+}
+
+.row.debug [class*=col] {
+    height: 200px;
+    border: 1px solid black;
+    background-color: pink;
+}
+
+section.white {
+    /*  */
+}
+
+section.azure {
+    background-color: aquamarine;
+    color: white;
+}
+
+
+/* COMMON */
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.inline-ul li {
+    display: inline-block;
+}
+
+.teaser {
+    /* TEST */
+    max-width: 900px;
+    margin: auto;
+}
+
+
+
+.starred-divider::before,
+.starred-divider::after {
+    display: inline-block;
+    content: "";
+    /* TEST */
+    border: 1px;
+    border-color: inherit;
+    border-style: solid;
+    width: 40px;
+    position: relative;
+    bottom: 3px;
+}
