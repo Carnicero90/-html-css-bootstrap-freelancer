@@ -33,12 +33,6 @@ section.white {
     /*  */
 }
 
-section.azure,
-.custom-button {
-    background-color: #1abc9c;
-    color: white;
-}
-
 .custom-button {
     border-color: white;
 }
@@ -49,16 +43,7 @@ ul {
     padding-left: 0;
 }
 
-.form-control {
-    border: none;
-    box-shadow: none;
-    border-radius: 0;
-    border-bottom: 1px solid grey;
-}
 
-.form-control::placeholder {
-    color: inherit;
-}
 
 /* COMMON */
 
@@ -94,23 +79,7 @@ h4 {
     margin: auto;
 }
 
-.starred-divider {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
 
-.starred-divider::before,
-.starred-divider::after {
-    content: "";
-    display: inline-block;
-    /* TEST */
-    border: 1px;
-    border-style: solid;
-    border-color: inherit;
-    width: 40px;
-    line-height: 100%;
-    vertical-align: middle;
-}
 
 /* HEADER */
 
@@ -130,8 +99,50 @@ nav h3 {
     margin: 0 auto;
 }
 
+/* MAIN */
+
+/* Main-common */
+
+section.azure,
+.custom-button {
+    background-color: #1abc9c;
+    color: white;
+}
+
+/* Section-header */
+.starred-divider {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.starred-divider::before,
+.starred-divider::after {
+    content: "";
+    display: inline-block;
+    border: 0.1em;
+    border-style: solid;
+    border-color: inherit;
+    width: 60px;
+    line-height: 100%;
+    vertical-align: middle;
+}
+
+/* End Section-header */
+
 .avatar {
     height: 100px;
+}
+
+/* Contact */
+.form-control {
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    border-bottom: 1px solid grey;
+}
+
+.form-control::placeholder {
+    color: inherit;
 }
 
 
