@@ -139,8 +139,9 @@ footer a:hover {
 .social-icons li {
     border: 1px solid white;
     border-radius: 50%;
-    line-height: 30px;
-    width: 30px;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
 }
 
 
