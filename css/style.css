@@ -1,41 +1,14 @@
-/* TEST */
-
-.img-responsive {
-    padding: 15px 0;
-    /* lo tolgo eh */
-}
-
-
-.wrapper {
-    width: 80%;
-    max-width: 900px;
-    margin: auto;
-}
-
-footer {
-    color: white;
-    background-color: #3a546d;
-}
-
-.sub-footer {
-    background: #2c3e50;
-    height: 50px;
-}
-
-
-.custom-button {
-    border-color: white;
-}
-
-
 /* OVERRIDE-BOOTSTRAP-PROPERITES */
 ul {
     padding-left: 0;
 }
 
-
-
 /* COMMON */
+
+.sub-footer,
+nav {
+    background: #2c3e50;
+}
 
 li {
     list-style-type: none;
@@ -49,7 +22,7 @@ h1,
 h2,
 h4 {
     text-transform: uppercase;
-    /* font-weight: bolder; */
+    font-weight: bolder;
 }
 
 .padded {
@@ -61,12 +34,18 @@ h4 {
     display: inline-block;
 }
 
+.custom-button {
+    border-color: white;
+}
 
 /* HEADER */
 
 nav {
-    background-color: #2c3e50;
     color: white;
+}
+
+.burger {
+    font-size: 200%;
 }
 
 nav h3 {
@@ -81,6 +60,16 @@ section.azure,
 .custom-button {
     background-color: #1abc9c;
     color: white;
+}
+
+.custom-button i {
+    margin-right: 10px;
+}
+
+.wrapper {
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
 }
 
 /* Section-header */
@@ -107,6 +96,12 @@ section.azure,
     height: 200px;
 }
 
+/* Portfolio */
+
+.top-pad {
+    padding-top: 30px;
+}
+
 /* Contact */
 .contact-form .form-control {
     border: none;
@@ -123,6 +118,11 @@ section.azure,
 /* Footer */
 .blue-link {
     color: #1abc9c;
+}
+
+footer {
+    color: white;
+    background-color: #3a546d;
 }
 
 footer a:hover {
