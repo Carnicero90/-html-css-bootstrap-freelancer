@@ -96,6 +96,12 @@ section.azure,
     height: 200px;
 }
 
+/* Start */
+
+.dashed li:nth-of-type(1n + 2)::before {
+    content: " - ";
+}
+
 /* Portfolio */
 
 .top-pad {
