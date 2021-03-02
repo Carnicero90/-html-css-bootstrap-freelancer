@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -14,108 +13,160 @@
 
 <body>
     <header>
-        <nav>
+        <nav class="padded">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-6">titolo</div>
-                    <div class="hidden-xs col-sm-6">links</div>
-                    <div class="col-xs-6 hidden-sm hidden-md hidden-lg">burger </div>
+                    <div class="col-xs-6">
+                        <h3>start bootstrap</h3>
+                    </div>
+                    <div class="hidden-xs col-sm-6 text-right">
+                        <ul class="inline-ul">
+                            <li><a href="">Portfolio</a></li>
+                            <li><a href="">about</a></li>
+                            <li><a href="">contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-6 visible-xs text-right"><i class="fas fa-bars"></i> </div>
                 </div>
             </div>
         </nav>
     </header>
     <main>
-        <section class="azure">
+        <section class="azure padded">
             <div class="teaser">
-                <img src="" alt="laughing dude">
-                <h1>START BOOTSTRAP</h1>
-                <span class="starred-divider">
-                    <i class="fas fa-star"></i>
-                </span>
-                <ul class="inline-ul">
-                    <!-- boootstrap da un padding di default alle ul? -->
-                    <li>bla</li>
-                    <li>bla</li>
-                    <li>bla</li>
-                </ul>
+                <div class="section-header text-center"><img src="img/avatar.svg" class="avatar" alt="laughing dude">
+                    <h1>START BOOTSTRAP</h1>
+                    <div class="starred-divider">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <ul class="inline-ul text-uppercase">
+                        <!-- boootstrap da un padding di default alle ul? -->
+                        <li>Graphic artist</li>
+                        <li>web designer</li>
+                        <li>illustrator</li>
+                    </ul>
+                </div>
+
+
             </div>
 
 
         </section>
-        <section class="white">
-            <h2>START BOOTSTRAP</h2>
-            <span class="starred-divider">
-                <i class="fas fa-star"></i>
-            </span>
+        <section class="white padded">
+            <div class="section-header text-center">
+                <h2>portfolio</h2>
+                <div class="starred-divider">
+                    <i class="fas fa-star"></i>
+                </div>
+
+            </div>
+
             <div class="container">
-                <div class="row debug">
-                    <div class="col-xs-12 col-sm-6 col-md-4">blabla</div>
-                    <div class="col-xs-12 col-sm-6 col-md-4">blabla</div>
-                    <div class="col-xs-12 col-sm-6 col-md-4">blabla</div>
-                    <div class="col-xs-12 col-sm-6 col-md-4">blabla</div>
-                    <div class="col-xs-12 col-sm-6 col-md-4">blabla</div>
-                    <div class="col-xs-12 col-sm-6 col-md-4">blabla</div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div><img src="img/cabin.png" class="img-responsive" alt=""></div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div><img src="img/cake.png" class="img-responsive" alt=""></div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div><img src="img/circus.png" class="img-responsive" alt=""></div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div><img src="img/game.png" class="img-responsive" alt=""></div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div><img src="img/safe.png" class="img-responsive" alt=""></div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div><img src="img/submarine.png" class="img-responsive" alt=""></div>
+                    </div>
                 </div>
                 <div class="row"></div>
             </div>
         </section>
-        <section class="azure">
+        <section class="azure padded">
             <div class="wrapper">
+                <div class="section-header text-center">
+                    <h2>about</h2>
+                    <div class="starred-divider">
+                        <i class="fas fa-star"></i>
+                    </div>
 
-                <h2>START BOOTSTRAP</h2>
-                <span class="starred-divider">
-                    <i class="fas fa-star"></i>
-                </span>
-                <div class="fluid-container">
-                    <div class="row debug">
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
                         <div class="col-xs-12 col-sm-6">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quae molestiae ratione odio. Eum laudantium blanditiis voluptas rerum facere? Temporibus ea dolor, excepturi molestias impedit tempora explicabo voluptatibus. Perferendis, cupiditate!</p>
+                            <p class="text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quae
+                                molestiae ratione
+                                odio. Eum laudantium blanditiis voluptas rerum facere? Temporibus ea dolor, excepturi
+                                molestias impedit tempora explicabo voluptatibus. Perferendis, cupiditate!</p>
                         </div>
                         <div class="col-xs-12 col-sm-6">
-                            <p>Voluptatem aperiam itaque cupiditate deserunt maiores unde recusandae neque possimus amet necessitatibus asperiores error quo ea aspernatur nobis eveniet fuga accusamus eius numquam earum, reiciendis, doloribus dolor perferendis debitis. Sint!</p>
+                            <p class="text-left">Voluptatem aperiam itaque cupiditate deserunt maiores unde recusandae
+                                neque possimus amet
+                                necessitatibus asperiores error quo ea aspernatur nobis eveniet fuga accusamus eius
+                                numquam earum, reiciendis, doloribus dolor perferendis debitis. Sint!</p>
                         </div>
                     </div>
                 </div>
-                <a class="btn btn-default" href="#" role="button">Link</a>
+                <a class="btn btn-lg custom-button" href="#" role="button">Download</a>
             </div>
         </section>
-        <section class="white">
-
-            <h2>START BOOTSTRAP</h2>
-            <span class="starred-divider">
-                <i class="fas fa-star"></i>
-            </span>
-            <div class="container">
-                <div class="row">
-                    <form action="">blabla, form di prova</form>
-
+        <section class="white padded">
+            <div class="wrapper">
+                <div class="container-fluid">
+                    <div class="section-header text-center">
+                        <h2>contact me</h2>
+                        <div class="starred-divider">
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email Address">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Phone Number">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="Message" rows="3"></textarea>
+                        </div>
+                    </form>
+                    <a class="btn btn-lg custom-button " href="#" role="button">Send</a>
                 </div>
+
             </div>
+
         </section>
     </main>
     <footer>
-        <div class="container">
-            <div class="row">
+        <div class="container padded">
+            <div class="row text-center">
                 <div class="col-xs-12 col-sm-4">
-                    <h3>hola</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio vel quas qui nam autem minus aliquid tenetur dolor hic voluptate praesentium tempore dignissimos, voluptatibus eligendi in mollitia modi ea placeat!</p>
+                    <h4>location</h4>
+                    <p>2215 John Daniel Drive Clark, MO 54243</p>
                 </div>
                 <div class="col-xs-12 col-sm-4">
-                    <h3>hola</h3>
-                    <ul class="inline-ul">
-                        <li>link</li>
-                        <li>link</li>
-                        <li>link</li>
+                    <h4>Around the web</h4>
+                    <ul class="inline-ul social-icons">
+                        <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href=""><i class="fab fa-google-plus-g"></i></a></li>
+                        <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
                     </ul>
                 </div>
                 <div class="col-xs-12 col-sm-4">
-                    <h3>hola</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam amet sint omnis, laboriosam expedita temporibus minima quibusdam dolorem dolorum adipisci vel tempora magnam eaque! Corrupti reprehenderit fugiat obcaecati exercitationem. Deserunt.</p>
+                    <h4>about freelancer</h4>
+                    <p>Freelance is a free to use, open source Bootstrap theme created by <a href="" class="blue-link">Start Bootstrap</a>.</p>
                 </div>
             </div>
         </div>
-        <div class="sub-footer">
-            <p>paroleparoleparole</p>
+        <div class="sub-footer text-center padded">
+            <p><span>Copyright <i class="far fa-copyright"></i></span> Your Website 2019</p>
         </div>
     </footer>
 </body>
